@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/contracts" },
+    { "path": "packages/core" },
+    { "path": "packages/agents/echo" },
+    { "path": "packages/security" },
+    { "path": "packages/tools/demo" },
+    { "path": "packages/model-router" },
+    { "path": "packages/planner" },
+    { "path": "packages/orchestrator" },
+    { "path": "packages/memory" },
+    { "path": "packages/knowledge" },
+    { "path": "packages/voice" },
+    { "path": "apps/cli" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@jarvis/cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phase 1 user interface: a plain text shell over JARVIS Core.",
+  "main": "dist/index.js",
+  "bin": {
+    "jarvis": "dist/index.js"
+  },
+  "dependencies": {
+    "@jarvis/contracts": "0.1.0",
+    "@jarvis/core": "0.1.0",
+    "@jarvis/agent-echo": "0.1.0",
+    "@jarvis/planner": "0.1.0",
+    "@jarvis/orchestrator": "0.1.0",
+    "@jarvis/security": "0.1.0",
+    "@jarvis/memory": "0.1.0",
+    "@jarvis/model-router": "0.1.0",
+    "@jarvis/knowledge": "0.1.0",
+    "@jarvis/voice": "0.1.0"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  }
+}
